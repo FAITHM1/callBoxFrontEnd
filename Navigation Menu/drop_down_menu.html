@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="/Navigation Menu/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/a2310eeb25.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Nav</title>
+  </head>
+  <body>
+    <nav>
+      <ul id="menu">
+        <li class="parent"><a href="#">HOME</a></li>
+        <li class="parent" onclick="myFunction()">
+          <a href="#">INVENTORY <i class="fas fa-angle-down"></i></a>
+          <ul id="expand" class="child-menu">
+            <li class="child"><a href="#">NEW</a></li>
+            <li class="child"><a href="#">USED</a></li>
+            <li class="child"><a href="#">CARS</a></li>
+            <li class="child"><a href="#">TRUCKS</a></li>
+            <li class="child"><a href="#">SUV'S</a></li>
+          </ul>
+        </li>
+        <li class="parent"><a href="#">ABOUT US</a></li>
+        <li class="parent"><a href="#">CONTACT US</a></li>
+      </ul>
+
+      <!-- <a href="#">HOME</a>
+      <a href="#">INVENTORY</a>
+      <a href="#">ABOUT US</a>
+      <a href="#">CONTACT US</a> -->
+    </nav>
+  </body>
+</html>

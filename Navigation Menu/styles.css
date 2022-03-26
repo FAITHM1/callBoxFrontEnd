@@ -1,0 +1,60 @@
+/* * {
+  outline: 1px solid red;
+} */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+}
+.child-menu {
+  display: none;
+  margin: 0 auto;
+  width: 14vh;
+}
+.show {
+  display: block;
+  box-shadow: 2px 2px rgb(189, 189, 189);
+  background-color: white;
+}
+
+.parent {
+  position: relative;
+}
+.parent a:hover,
+.parent a:focus {
+  opacity: 60%;
+}
+.parent a:focus {
+  color: rgb(90, 35, 58);
+}
+.child-menu {
+  animation-duration: 0.5s;
+  position: absolute;
+  animation-name: dropdown;
+}
+.child:hover,
+.child:focus {
+  background-color: rgb(238, 238, 238);
+  transform: scale(1.05, 1.05);
+  font-weight: bolder;
+}
+
+@keyframes dropdown {
+  from {
+    margin-top: -15%;
+  }
+
+  to {
+    margin-bottom: 0%;
+  }
+}

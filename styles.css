@@ -1,0 +1,43 @@
+header {
+  background-color: rgba(223, 223, 223, 0.678);
+  margin-bottom: 10px;
+}
+h1 {
+  margin: 20px;
+  padding: 10px;
+}
+
+#staff-Lists {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 90vh;
+  border-radius: 1%;
+  background-color: rgb(223, 223, 223);
+  padding: 10px;
+}
+h2 {
+  background-color: white;
+  padding: 5px;
+  border-radius: 1%;
+  text-align: center;
+  border-bottom: 2px solid rgb(148, 148, 148);
+}
+.staff-list {
+  display: flex;
+  flex-direction: row;
+  border-radius: 1%;
+}
+.staff {
+  margin: 0 10px;
+  width: 27%;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+  border-radius: 3%;
+}
+img {
+  border-radius: 360%;
+  width: 360px;
+  height: 200px;
+}
