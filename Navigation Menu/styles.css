@@ -7,6 +7,9 @@ ul {
   margin: 0 auto;
   padding: 5px;
 }
+li{
+  padding: 5px;
+}
 
 #menu {
   display: flex;
@@ -17,6 +20,7 @@ ul {
   display: none;
   margin: 0 auto;
   width: 14vh;
+ 
 }
 .show {
   display: block;
@@ -37,6 +41,8 @@ ul {
 .child-menu {
   animation-duration: 0.5s;
   position: absolute;
+  top: 4.1vh;
+  left: -1vh;
   animation-name: dropdown;
 }
 .child:hover,
@@ -48,7 +54,7 @@ ul {
 
 @keyframes dropdown {
   from {
-    margin-top: -15%;
+    margin-top: -5%;
   }
 
   to {
